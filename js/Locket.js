@@ -18,7 +18,7 @@ const ent = JSON.parse(data);
 
 let jsonToUpdate = {
         "request_date_ms": 1704070861000,
-        "request_date": "2024-07-26T01:01:01Z",
+        "request_date": "2024-08-06T01:01:01Z",
         "subscriber": {
             "entitlement": {},
             "first_seen": "2024-07-26T01:01:01Z",
@@ -28,7 +28,7 @@ let jsonToUpdate = {
             "management_url": null,
             "subscriptions": {},
             "entitlements": {},
-            "original_purchase_date": "2024-07-26T01:01:01Z",
+            "original_purchase_date": "2024-08-06T01:01:01Z",
             "original_app_user_id": "70B24288-83C4-4035-B001-573285B21AE2",
             "non_subscriptions": {}
         }
@@ -43,7 +43,7 @@ for (const [entitlementId, productInfo] of Object.entries(productEntitlementMapp
 
   for (const entitlement of entitlements) {
     jsonToUpdate.subscriber.entitlements[entitlement] = {
-      "purchase_date": "2024-07-26T01:01:01Z",
+      "purchase_date": "2024-08-06T01:01:01Z",
       "original_purchase_date": "2024-07-26T01:01:01Z",
       "expires_date": "9692-01-01T01:01:01Z",
       "is_sandbox" : false,
@@ -56,7 +56,7 @@ for (const [entitlementId, productInfo] of Object.entries(productEntitlementMapp
     jsonToUpdate.subscriber.subscriptions[productIdentifier] = {
       "expires_date": "9692-01-01T01:01:01Z",
       "original_purchase_date": "2024-07-26T01:01:01Z",
-      "purchase_date": "2024-07-26T01:01:01Z",
+      "purchase_date": "2024-08-06T01:01:01Z",
       "is_sandbox" : false,
       "ownership_type": "PURCHASED",
       "store": "app_store"
