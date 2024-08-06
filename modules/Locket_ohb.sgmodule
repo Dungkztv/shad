@@ -3,7 +3,7 @@
 #!desc=Crack By DungMomx
 
 [Script]
-# ~ By DungMomx
+# ~ By DungMom
 # ～ Egern transfer to Shadowrocket & Surge & LanceX
 revenuecat = type=http-response, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$), script-path=https://raw.githubusercontent.com/Dungkztv/shad/main/js/Locket_DungMomx.js, requires-body=true, max-size=-1, timeout=60
 
