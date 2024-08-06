@@ -21,9 +21,9 @@ let jsonToUpdate = {
         "request_date": "2024-08-06T01:01:01Z",
         "subscriber": {
             "entitlement": {},
-            "first_seen": "2024-07-26T01:01:01Z",
+            "first_seen": "2024-08-06T01:01:01Z",
             "original_application_version": "9692",
-            "last_seen": "2024-07-26T01:01:01Z",
+            "last_seen": "2024-08-06T01:01:01Z",
             "other_purchases": {},
             "management_url": null,
             "subscriptions": {},
@@ -44,7 +44,7 @@ for (const [entitlementId, productInfo] of Object.entries(productEntitlementMapp
   for (const entitlement of entitlements) {
     jsonToUpdate.subscriber.entitlements[entitlement] = {
       "purchase_date": "2024-08-06T01:01:01Z",
-      "original_purchase_date": "2024-07-26T01:01:01Z",
+      "original_purchase_date": "2024-08-06T01:01:01Z",
       "expires_date": "9692-01-01T01:01:01Z",
       "is_sandbox" : false,
       "ownership_type": "PURCHASED",
